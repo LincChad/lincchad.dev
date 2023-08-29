@@ -32,6 +32,7 @@ const Contact = () => {
           placeholder="Message"
           name="message"
         ></textarea>
+        <input className="display:none !important" type="hidden" name="_gotcha"></input>
         <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 mx-auto flex items-center my-8">
           Let's Collaborate
         </button>
