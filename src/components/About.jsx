@@ -11,7 +11,6 @@ const About = () => {
             </p>
           </div>
           <div>
-            <p>empty div</p>
           </div>
         </div>
 
@@ -20,7 +19,12 @@ const About = () => {
             <p>Hi, I'm Lincoln, nice to meet you. Please take a look around</p>
           </div>
           <div>
-            <p>I am passionate about building excellent software that improves the lives of those around me. I specialise in creating software for clients ranging from individuals, small businesses, all the way to large corporations.</p>
+            <p>
+              I am passionate about building excellent software that improves
+              the lives of those around me. I specialise in creating software
+              for clients ranging from individuals, small businesses, all the
+              way to large corporations.
+            </p>
           </div>
         </div>
       </div>
