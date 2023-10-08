@@ -51,12 +51,12 @@ const Work = () => {
                 Datalinc
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://www.datalinc.io">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     View
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/LincChad/datalinc_lp">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
