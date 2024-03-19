@@ -1,23 +1,28 @@
 import React from "react";
-import workimg from "../assets/work1.jpg";
-import realestate from "../assets/work2.jpeg";
 import lincsm from "../assets/lincd.png";
 import screenhub from "../assets/screenhub.png";
 import datalinc from "../assets/datalinc.png";
+import flotoAi from "../assets/flotoAi.png";
+import quikSmarts from "../assets/quikSmarts.png";
+import newsUp from "../assets/newsUp.png";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div name="work" className="w-full md:h-screen">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full text-gray-300">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Work
           </p>
-          <p className="py-6">Check out some of my recent apps.</p>
+          <p className="py-6">
+            I have created many websites through drag-&-drop builders for
+            clients, but I truely enjoy writing customised code and creating web
+            applications. Check out some of my recent apps.
+          </p>
         </div>
         {/* container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {/* grid item */}
+          {/* grid item */}
           <div
             style={{ backgroundImage: `url(${screenhub})` }}
             className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -88,20 +93,20 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${workimg})` }}
+            style={{ backgroundImage: `url(${newsUp})` }}
             className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-              Coming soon
+                News-Up
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                {/* <a href="TODO">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
-                </a>
+                </a> */}
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -111,21 +116,21 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realestate})` }}
+            style={{ backgroundImage: `url(${flotoAi})` }}
             className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Coming soon
+                Floto
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://floto-ai.vercel.app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/LincChad/Floto">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -134,25 +139,25 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${workimg})` }}
+            style={{ backgroundImage: `url(${quikSmarts})` }}
             className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-              Coming soon
+                Quik Smarts
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://www.qwiksmarts.com">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                {/* <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
