@@ -7,7 +7,7 @@ import animationData from "../assets/animation_lmqmcd6d.json";
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen">
-      <div className="max-w-[1000px] mx-auto px-8 py-[100px] flex flex-col justify-center h-100vh">
+      <div className="max-w-[1000px] mx-auto px-8 py-[100px] flex flex-col justify-center">
         <p className="text-[#00df9a]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Lincoln Chadburn

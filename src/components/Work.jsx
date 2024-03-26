@@ -8,8 +8,8 @@ import newsUp from "../assets/newsUp.png";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full text-gray-300">
+    <div name="work" className="w-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full h-100vh text-gray-300">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Work

@@ -1,4 +1,5 @@
 import React from "react";
+import Linc from "../assets/me.png";
 
 const About = () => {
   return (
@@ -13,10 +14,11 @@ const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>Hi, I'm Lincoln. Please take a look around</p>
+          <div className="sm:text-right text-4xl font-bold p-1">
+            <p>Hi, I'm Lincoln.</p>
+            <img className="w-60 h-60 rounded-full mx-auto" src={Linc} alt="Linc"/>
           </div>
-          <div>
+          <div className="flex justify-center my-auto">
             <p>
               As a passionate software developer, I thrive on crafting
               innovative solutions to complex problems. When I'm not coding, you

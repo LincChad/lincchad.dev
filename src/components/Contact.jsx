@@ -49,8 +49,8 @@ const Contact = () => {
             type="hidden"
             name="_gotcha"
           ></input>
-          <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 mx-auto flex items-center my-8">
-            Let's Collaborate
+          <button className="text-white bg-black border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 mx-auto flex items-center my-8">
+            Send
           </button>
         </form>
         <div className="flex flex-row justify-between-items-center px-2 py-6">
@@ -75,8 +75,8 @@ const Contact = () => {
           <a
             name="email"
             className="flex justify-between items-center w-full text-gray-300 text-bold px-6"
-            mailto="lincchad@protonmail.com"
-            href="#email"
+            
+            href="mailto:lincchad@protonmail.com"
           >
             Email{" "}
             <span className="px-2">
