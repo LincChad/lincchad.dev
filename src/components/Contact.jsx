@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen"
+      className="w-full h-full"
     >
       <div className=" flex flex-col justify-center items-center p-4">
         <form
@@ -39,7 +39,7 @@ const Contact = () => {
           <textarea
             className="bg-[#ccd6f6] p-2"
             type="text"
-            rows="10"
+            rows="8"
             placeholder="Message"
             name="message"
             required

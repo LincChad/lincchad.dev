@@ -3,7 +3,7 @@ import Linc from "../assets/me.png";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen">
+    <div name="about" className="w-full h-screen mb-36">
       <div className="flex flex-col justify-center items-center w-full h-full text-gray-300">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
